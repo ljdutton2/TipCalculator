@@ -58,7 +58,7 @@
                                                         <color key="textColor" name="tcWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UO3-F3-6Hr">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UO3-F3-6Hr" customClass="BillAmountTextField" customModule="TipCalculatorStarter" customModuleProvider="target">
                                                         <rect key="frame" x="183" y="0.0" width="118" height="34"/>
                                                         <color key="tintColor" name="tcHotPink"/>
                                                         <constraints>
@@ -204,6 +204,7 @@
                     <connections>
                         <outlet property="BillamtTextField" destination="UO3-F3-6Hr" id="0XR-V1-P0m"/>
                         <outlet property="BillamtTextView" destination="gQ5-eN-hqs" id="gWy-hv-JF0"/>
+                        <outlet property="InputView" destination="Qfz-ic-ZGW" id="JsV-5F-Ttj"/>
                         <outlet property="OutputView" destination="v5b-g0-hcI" id="nat-AY-a7Q"/>
                         <outlet property="ResetButton" destination="tEJ-le-hud" id="Dky-Jl-giF"/>
                         <outlet property="TipAmtLabel" destination="zSP-tw-3hZ" id="HC3-Wh-Mnk"/>
